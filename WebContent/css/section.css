@@ -1,0 +1,21 @@
+
+@import url('../css/people/section_top.css');
+@import url('../css/people/section_people.css');
+@import url('../css/people/section_progress.css');
+@import url('../css/people/section_side.css');
+@import url('../css/people/section_vision.css');
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-background-smoke {
+    background-color: #f5f5f5;
+}
+
+
+section h1 { color :#191970; font-weight: bold; font-family: fantasy;}
+.text-right {text-align: right;}

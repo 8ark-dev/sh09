@@ -1,0 +1,52 @@
+#container3 {
+    width: 100%;
+    height: auto;
+
+    background-color: #F5F5F5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    border-bottom: 1px solid #E0E0E0;
+
+}
+.section-people-txt {
+    width: 80%;
+
+    height: auto;
+
+    font-size: 13px;
+    text-align: center;
+}
+
+.container-people {
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.media {
+    margin-top: 50px;
+}
+
+.media img {
+    width: 256px;
+    height: 256px;
+    
+    object-fit:cover;
+    overflow: hidden;
+    
+}
+
+.autoplay {
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

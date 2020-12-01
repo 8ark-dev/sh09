@@ -1,13 +1,3 @@
-.section-slide_img {
-    width: 100%;
-    height: 600px;
-
-    background-image: url('../../img/europe.jpg');
-    background-repeat: no-repeat;
-    background-position: center 30%;
-    background-size: cover;
-}
-
 .section-side_img {
     width: 100%;
     height: 600px;
@@ -17,14 +7,24 @@
     justify-content: center;
 }
 
+.section-side_img iframe {
+    position: relative;
+    z-index: 1px;
+}
+
 #section-side-lf_img {
     width: 50%;
     height: 600px;
 
-    background-image: url('../../img/paris.jpg');
+
+    background-image: url('../../img/santorini.jpg');
     background-repeat: no-repeat;
     background-position: center 30%;
     background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
