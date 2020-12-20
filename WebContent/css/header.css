@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 header {
     width: 100%;
 
@@ -30,6 +33,12 @@ header {
 
 .header-menu-logo {
     width: 100px;
+    height: 100vh;
+
+    background-image: url('../../img/icon/logo.png');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
 
   /*  background-repeat: no-repeat;
     background-image: url('../../img/icon/nike.png');

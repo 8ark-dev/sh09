@@ -8,11 +8,16 @@
         <link rel="stylesheet" href="../css/reset.css">
 
         <link rel="stylesheet" type="text/css" href="../css/header.css">
+        <link rel="stylesheet" type="text/css" href="../css/section.css">
+        <link rel="stylesheet" type="text/css" href="../css/footer.css">
+        
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-     </head>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    </head>
 
     <!--http://www.gdweb.co.kr/sub/view.asp?displayrow=60&Txt_key=all&Txt_word=&Txt_agnumber=&Txt_fgbn=5&Txt_bcode1=024110001&Txt_gbflag=&Txt_bcode2=&Txt_bcode3=&Txt_bcode4=&Txt_bcode5=&Page=1&str_no=14151-->
     <!--header, nav, section(article), aside, footer-->
@@ -21,25 +26,26 @@
             <!--상단메뉴-->
             <div id="header-menu">             
                 <!--마크-->
-                <div class="header-menu-logo">LOGO</div>
+                <div class="header-menu-logo"></div>
         
                 <!-- 서흥소개 / 서비스 / 서흥소식 / 온라인매장 / 공구여신 -->
                 <div class="header-menu-cate">
-                    <div class="header-menu-item"><a href="../html/index.html">Home</a></div>
-                    <div class="header-menu-item"><a href="../html/people.html">About Us</a></div>
-                    <div class="header-menu-item"><a href="../html/service.html">Service</a></div>
-                    <div class="header-menu-item"><a href="http://i09u.com" target="_blank">Shop</a></div>
-                    <div class="header-menu-item"><a href="../html/contact.html">Contact</a></div>    
+                    <div class="header-menu-item"><a class="test2" href="#">Home</a></div>
+                    <div class="header-menu-item"><a class="test2" href="#aboutus">About Us</a></div>
+                    <div class="header-menu-item"><a onclick="alert('준비 중');">Service</a></div>
+                    <div class="header-menu-item"><a href="http://pf.kakao.com/_TxgJJT" target="_blank">Contact</a></div> 
+                    <div class="header-menu-item"><a href="http://i09u.com" target="_blank">Shop</a></div>   
                 </div>
 
                 <!--lang-->
                 <div>
-                    lang
+                  
                 </div>
             </div>
         </header>
 
         <section>
+            <!--회사소개-->
             <!--슬라이드 이미지-->
             <div class=".section-slide_img">
                 <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
@@ -61,5 +67,193 @@
                     </a>
                   </div>
             </div>
+
+            <a name="aboutus"></a>
+            <div id="container0">
+                <div class="section-top" >
+                    <h1>ABOUT US</h1>
+                    <div></div>
+                </div>
+
+                <div class="section-introduce" >
+                    
+                        <img src="../../img/icon/logo.jpg">
+                        <div>최고의 서비스를 위해 노력하는 서흥공구가 되겠습니다. (임시)</div>          
+                        <img src="../../img/europe.jpg">
+                </div>
+                
+            </div>
+
+            <div id="container" class="container-background-smoke">
+                <div id="container-aboutus">
+                    <!--연혁-->
+                    <div class="section-history" >
+                        <h1>HISTORY</h1>
+                        <a>서흥연혁</a>
+                    </div>
+
+                    <!--연혁 도형-->
+                    <div class="section-prbar-main">
+                        <div class="section-prbar">
+                            <div class="prbar-circle">
+                                <div class="prbar-txt">1999년<br>회사설립</div>
+                            </div>
+                            
+                            <div class="prbar-circle">
+                                <div class="prbar-txt">2015년<br>회사 이동</div>
+                            </div>
+                            
+                            <div class="prbar-circle">
+                                <div class="prbar-txt">2018년<br>온라인매장 도입</div>
+                            </div>
+                            
+                            <div class="prbar-circle">
+                                <div class="prbar-txt">2020년<br>(주)공구여신 법인 설립</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container2">
+                <div id="container-vision">
+                    <!--비전-->
+                    <div class="section-vision-txt" >
+                        <h1>VISION</h1>
+                        <a>서흥의 비전</a>
+                    </div>
+    
+                    <!--비전 콜랩스-->
+                    <!--버튼에는 data-target : #id / data-toggle : collapse -->
+                    <!--div는 id설정, class : collapse -->
+                    <div class="section-vision">
+                        <div>
+                            <!--이미지는 글씨(영어) 이미지로 포토샵-->
+                            <img src="https://fakeimg.pl/200x300/?text=vision1">
+                        </div>
+
+                        <div>
+                            <img src="https://fakeimg.pl/200x300/?text=vision2">
+                        </div>
+
+                        <div>
+                            <img src="https://fakeimg.pl/200x300/?text=vision3">
+                        </div>
+
+                        <div>
+                            <img src="https://fakeimg.pl/200x300/?text=vision4">
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+
+
+            <!--인원소개-->
+            <!---->
+            <a name="people"></a>
+            <div id="container3">
+                
+                <div class="section-people-txt" >
+                    <h1>EXECUTIVES</h1>
+                    <a>서흥의 자랑</a>
+                </div>
+
+                <!--http://theonliest-wedding.com/company/-->
+                <!--http://babyceo.cafe24.com/page_THUy84-->
+                
+                    <!--버튼에는 data-target : #id / data-toggle : collapse -->
+                    <!--div는 id설정, class : collapse -->
+                <div id="section-parent">
+                    <div id="father">
+                        <img src="https://fakeimg.pl/256x512/?text=PKS" alt="박근성">
+                        <div>
+                                <h5>박근성</h5>         
+                                <p>서흥공구 대표</p> 
+                                <p>크리스토퍼 메인보컬</p>
+                                <p>배드민턴 경기도 A급</p>
+                                <p></p>
+                        </div>
+
+                    </div>
+
+                    <div id="mother">
+                        <img src="../../img/i09u.png" alt="김미란">
+                        <div>
+                                <h5>김미란</h5>     
+                                <p>서흥공구 본부장</p>
+                                <p>공구여신 대표</p>
+                                <p>서봉산 마스터</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                      
+         
+            </div>
+        
+            <!--
+            <div id="container4">
+                <div id="autoplay">
+                    <div><img src="https://fakeimg.pl/256x512/?text=PKS"></div>
+                    <div><img src="https://fakeimg.pl/256x512/?text=PKS"></div>
+                    <div><img src="https://fakeimg.pl/256x512/?text=PKS"></div>
+                    <div><img src="https://fakeimg.pl/256x512/?text=PKS"></div>
+                    <div><img src="https://fakeimg.pl/256x512/?text=PKS"></div>
+                </div>
+            </div>-->
+
+            
+            <!--인재-->
+            <a name="contact"></a>
+            <div id="container5">
+                <div id="container5_img">
+                    <div class="section-talented">
+                        <h1>인재채용</h1>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--
+            <div class="section-side_img">
+                <div id="section-side-lf_img">
+                    <div id="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.youtube.com/embed/iYn9fFQoRJU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div id="section-side-rh_img"></div>
+            </div>
+-->
+        </section>
+
+        <footer>
+            <div id="container-footer">
+                <!--공지사항, 고객센터, 제휴문의, 오시는 길-->
+                <div id="footer-left">
+                    <div>   
+                        <div class="footer-logo">SeoHeung</div>
+                        <div class="footer-add">경기도 화성시 3·1만세로 459</div>
+                    </div>
+                    <div class="footer-number">
+                        <div>사업자등록번호 : 123-456-789</div>
+                        <div><strong>TEL.</strong>(031)351-5509</div>
+                        <div><strong>FAX.</strong>(031)351-1509</div>
+                    </div>
+                </div>
+                <div id="footer-right">
+                    <img src="../../img/icon/fb.png">
+                    <img src="../../img/icon/insta.png">
+                    <img src="../../img/icon/blog.png">
+                </div> 
+            </div>
+
+            <div id="container-copyrights">
+                <p>COPYRIGHT © BY dev-8ark. ALL RIGHT RESERVED</p>
+            </div>
+        </footer>
+        
+        <script type="text/javascript" src="../js/slick.js"></script>
     </body>
 </html>

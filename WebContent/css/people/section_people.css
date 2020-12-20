@@ -1,6 +1,6 @@
 #container3 {
     width: 100%;
-    height: auto;
+    height: 1280px;
 
     background-color: #F5F5F5;
 
@@ -9,13 +9,10 @@
     align-items: center;
     justify-content: center;
     
-    border-bottom: 1px solid #E0E0E0;
 
 }
 .section-people-txt {
     width: 80%;
-
-    height: auto;
 
     font-size: 13px;
     text-align: center;
@@ -30,23 +27,110 @@
 
 }
 
-.media {
+#section-parent {
+    height: auto;
+
     margin-top: 50px;
-}
-
-.media img {
-    width: 256px;
-    height: 256px;
-    
-    object-fit:cover;
-    overflow: hidden;
-    
-}
-
-.autoplay {
-    width: 80%;
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#section-parent img {
+    height: 50vh;
+
+    object-fit:cover;
+    overflow: hidden;
+}
+
+#section-parent p {
+    margin-top: 5px;
+
+    line-height: 15px;
+}
+
+#section-parent h5{
+    font-weight: bold; font-size: 18px; margin-top: 20px; 
+    text-align: center;
+}
+
+
+#father, #mother{
+    width: 256px;
+    height: 80vh;
+    margin: 0px 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+
+#autoplay {
+    width: 80%;
+    height: 100px;
+
+    margin: 10px auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.prev-arrow {
+    border: 0px;
+
+}
+
+.next-arrow {
+    border: 0px;
+
+}
+
+
+*/
+#container5 {
+    width: 100%;
+    height: 23vw;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+
+#container5_img {
+    width: 100%;
+    height: 15vw;
+
+
+    background-image: url('../../../img/paris.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+}
+
+.section-talented{
+    width: 40%;
+    height: 100%;
+
+    margin-left: 25vw;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

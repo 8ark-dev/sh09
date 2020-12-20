@@ -31,35 +31,20 @@
 
 .section-vision {
     width: 80%;
-    height: 300px;
+    height: 400px;
 
-    padding-top: 10px;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.section-vision > div {
-    height: 200px;
 
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
 }
-.section-vision div div {
-    width: 150px;
-    height: auto;
+
+.section-vision img {
     
-    margin-top: 20px;
-
-    border-radius: 10px;
-
-    font-size: 14px;
-    font-weight: bold;
+    margin: 0px 20px;
 }
 
-.section-vision-collapse {
-    width: 80%;
-
+.section-vision img:hover {
+    cursor: pointer;
+    opacity: 60%;
 }
